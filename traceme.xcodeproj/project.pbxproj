@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6B7E781D6C3E750033EB01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6B7E771D6C3E750033EB01 /* Foundation.framework */; };
+		AA6B7E7B1D6C3E750033EB01 /* traceme-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA6B7E7A1D6C3E750033EB01 /* traceme-Prefix.pch */; };
+		AA6B7E7D1D6C3E750033EB01 /* traceme-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA6B7E7C1D6C3E750033EB01 /* traceme-Info.plist */; };
+		AA6B7E7F1D6C3E750033EB01 /* traceme.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6B7E7E1D6C3E750033EB01 /* traceme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6B7E811D6C3E750033EB01 /* traceme.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6B7E801D6C3E750033EB01 /* traceme.m */; };
+		AA6B7E8C1D6C42250033EB01 /* objc_msgSend.s in Sources */ = {isa = PBXBuildFile; fileRef = AA6B7E8B1D6C42250033EB01 /* objc_msgSend.s */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA6B7E741D6C3E750033EB01 /* traceme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = traceme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6B7E771D6C3E750033EB01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		AA6B7E7A1D6C3E750033EB01 /* traceme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "traceme-Prefix.pch"; sourceTree = "<group>"; };
+		AA6B7E7C1D6C3E750033EB01 /* traceme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "traceme-Info.plist"; sourceTree = "<group>"; };
+		AA6B7E7E1D6C3E750033EB01 /* traceme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = traceme.h; sourceTree = "<group>"; };
+		AA6B7E801D6C3E750033EB01 /* traceme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = traceme.m; sourceTree = "<group>"; };
+		AA6B7E821D6C3E750033EB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6B7E891D6C3FEF0033EB01 /* objc_msgSend.x84_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = objc_msgSend.x84_64.s; sourceTree = "<group>"; };
+		AA6B7E8B1D6C42250033EB01 /* objc_msgSend.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = objc_msgSend.s; sourceTree = "<group>"; };
+		AA6B7E941D6C454F0033EB01 /* objc_msgSend.i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = objc_msgSend.i386.s; sourceTree = "<group>"; };
+		AA6B7E961D6C456D0033EB01 /* objc_msgSend.arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = objc_msgSend.arm.s; sourceTree = "<group>"; };
+		AA6B7E981D6C45930033EB01 /* objc_msgSend.aarch64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = objc_msgSend.aarch64.s; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6B7E6F1D6C3E750033EB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B7E781D6C3E750033EB01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6B7E691D6C3E750033EB01 = {
+			isa = PBXGroup;
+			children = (
+				AA6B7E791D6C3E750033EB01 /* traceme */,
+				AA6B7E761D6C3E750033EB01 /* Frameworks */,
+				AA6B7E751D6C3E750033EB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6B7E751D6C3E750033EB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B7E741D6C3E750033EB01 /* traceme.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6B7E761D6C3E750033EB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B7E771D6C3E750033EB01 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA6B7E791D6C3E750033EB01 /* traceme */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B7E7E1D6C3E750033EB01 /* traceme.h */,
+				AA6B7E801D6C3E750033EB01 /* traceme.m */,
+				AA6B7E881D6C3FEF0033EB01 /* objc_msgSend */,
+				AA6B7E7A1D6C3E750033EB01 /* traceme-Prefix.pch */,
+				AA6B7E7C1D6C3E750033EB01 /* traceme-Info.plist */,
+				AA6B7E821D6C3E750033EB01 /* Info.plist */,
+			);
+			path = traceme;
+			sourceTree = "<group>";
+		};
+		AA6B7E881D6C3FEF0033EB01 /* objc_msgSend */ = {
+			isa = PBXGroup;
+			children = (
+				AA6B7E8B1D6C42250033EB01 /* objc_msgSend.s */,
+				AA6B7E891D6C3FEF0033EB01 /* objc_msgSend.x84_64.s */,
+				AA6B7E941D6C454F0033EB01 /* objc_msgSend.i386.s */,
+				AA6B7E961D6C456D0033EB01 /* objc_msgSend.arm.s */,
+				AA6B7E981D6C45930033EB01 /* objc_msgSend.aarch64.s */,
+			);
+			path = objc_msgSend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA6B7E701D6C3E750033EB01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B7E7F1D6C3E750033EB01 /* traceme.h in Headers */,
+				AA6B7E7B1D6C3E750033EB01 /* traceme-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AA6B7E731D6C3E750033EB01 /* traceme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6B7E851D6C3E750033EB01 /* Build configuration list for PBXNativeTarget "traceme" */;
+			buildPhases = (
+				AA6B7E6E1D6C3E750033EB01 /* Sources */,
+				AA6B7E6F1D6C3E750033EB01 /* Frameworks */,
+				AA6B7E701D6C3E750033EB01 /* Headers */,
+				AA6B7E711D6C3E750033EB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = traceme;
+			productName = traceme;
+			productReference = AA6B7E741D6C3E750033EB01 /* traceme.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6B7E6A1D6C3E750033EB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					AA6B7E731D6C3E750033EB01 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4EJ7GYP97S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA6B7E6D1D6C3E750033EB01 /* Build configuration list for PBXProject "traceme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA6B7E691D6C3E750033EB01;
+			productRefGroup = AA6B7E751D6C3E750033EB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6B7E731D6C3E750033EB01 /* traceme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6B7E711D6C3E750033EB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B7E7D1D6C3E750033EB01 /* traceme-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6B7E6E1D6C3E750033EB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6B7E811D6C3E750033EB01 /* traceme.m in Sources */,
+				AA6B7E8C1D6C42250033EB01 /* objc_msgSend.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA6B7E831D6C3E750033EB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		AA6B7E841D6C3E750033EB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		AA6B7E861D6C3E750033EB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4EJ7GYP97S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = traceme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imethan.traceme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		AA6B7E871D6C3E750033EB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4EJ7GYP97S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = traceme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imethan.traceme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6B7E6D1D6C3E750033EB01 /* Build configuration list for PBXProject "traceme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6B7E831D6C3E750033EB01 /* Debug */,
+				AA6B7E841D6C3E750033EB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6B7E851D6C3E750033EB01 /* Build configuration list for PBXNativeTarget "traceme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6B7E861D6C3E750033EB01 /* Debug */,
+				AA6B7E871D6C3E750033EB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6B7E6A1D6C3E750033EB01 /* Project object */;
+}
